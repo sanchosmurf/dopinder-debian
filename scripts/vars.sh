@@ -20,13 +20,9 @@ uboot_src="https://github.com/u-boot/u-boot/archive/refs/tags/v2023.10-rc2.zip"
 uboot_filename="u-boot-2023.10-rc2.zip"
 uboot_overlay_dir="u-boot"
 
-# FIP
-fip_src="https://github.com/LibreELEC/amlogic-boot-fip/archive/refs/heads/master.zip"
-fip_filename="amlogic-boot-fip-master.zip"
-
 # Kernel
-kernel_src="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/snapshot/linux-6.4.y.tar.gz"
-kernel_filename="linux-6.4.y.tar.gz"
+kernel_src="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/snapshot/linux-6.5-rc6.tar.gz"
+kernel_filename="linux-6.5-rc6.tar.gz"
 kernel_config="s905_defconfig"
 kernel_overlay_dir="kernel"
 

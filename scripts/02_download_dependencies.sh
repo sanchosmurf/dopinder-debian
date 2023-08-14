@@ -24,12 +24,6 @@ if [ ! -f ${root_path}/downloads/${uboot_filename} ]; then
     wget ${uboot_src} -O ${root_path}/downloads/${uboot_filename}
 fi
 
-# FIP
-if [ ! -f ${root_path}/downloads/${fip_filename} ]; then
-    debug_msg "Downloading FIP..."
-    wget ${fip_src} -O ${root_path}/downloads/${fip_filename}
-fi
-
 # Kernel
 if [ ! -f ${root_path}/downloads/${kernel_filename} ]; then
     debug_msg "Downloading Kernel..."
