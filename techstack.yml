@@ -1,0 +1,65 @@
+repo_name: sanchosmurf/dopinder-debian
+report_id: f0057cfeff07643b1d37c1a872bfbd2f
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-08T16:52:04+00:00'
+requested_by: riptidewave93
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/sanchosmurf/dopinder-debian
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/sanchosmurf/dopinder-debian
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sanchosmurf/dopinder-debian
+  detection_source: Repo Metadata
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  version: 12.0.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/sanchosmurf/dopinder-debian/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Chris Blake
+  last_updated_on: 2023-08-13 02:04:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sanchosmurf/dopinder-debian
+  detection_source: Repo Metadata
